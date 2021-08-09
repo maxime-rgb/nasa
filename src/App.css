@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: "nasa";
+  src: url("police/nasa.TTF") format("woff2");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-image: url("./images/pexels-photo-2085998.jpeg");
+  height: 100vh;
+  color: white;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home{
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  background-image: url("./images/pexels-photo-2085998.jpeg");
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.navbar ul{
+  
+  padding: 0px !important;
+}
+
+.home-link{
+  display: flex;
+  text-align: center;
+  font-family: 'nasa', Courier, monospace;
+  font-size: 3em;
   color: white;
+  text-shadow: 5px 5px #558ABB;
+  line-height: 2.3;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .link{
+color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  font-family: 'nasa', Courier, monospace;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ion-icon {
+  font-size: 50px;
+  color: black;
+}
+.nasa-photo{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.nasa-photo h1{
+  margin-top: 3vw;
+  font-family: 'nasa', Courier, monospace;
+
+}
+.nasa-photo .date{
+  text-decoration: underline;
+
+}
+.nasa-photo .explanation{
+  width: 70vw;
+  line-height: 1.5em;
+  font-size: large;
+
+}
+
+.nasa-photo img{
+  border: 15px solid grey;
+  width: 50vh;
+  height: 50vh;
 }
