@@ -11,6 +11,7 @@
 
 .home{
   display: flex;
+  height: 100vh;
   background-image: url("./images/pexels-photo-2085998.jpeg");
   align-items: center;
   justify-content: center;
